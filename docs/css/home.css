@@ -1,0 +1,51 @@
+
+body {
+   background-color: #272829; 
+}
+
+.banner {
+    padding: 45px 5%;
+}
+
+.contenedor-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/ResidentEvilRequiem_Banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 15px;
+    border: 2px solid #f5d327;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.banner_letras h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.banner_letras p {
+    color: #ccc;
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+
+.boton-amarillo {
+    background-color: #f5d327;
+    color: #000000;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.5s;
+    display: inline-block;
+}
+
+.boton-amarillo:hover {
+    background-color: #ffffff;
+}
